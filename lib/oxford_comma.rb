@@ -17,6 +17,6 @@ def oxford_comma(array)
     end
   end
   
-  puts string
+  string
 end
 
