@@ -9,11 +9,13 @@ def oxford_comma(array)
     i = 0
     while i < array.size do
       if i == array.size-1
-        string = string + array[i] 
+        string = "#{string}, and #{array[i]}"
       else
+        string = "#{string}, #{array[i]}"
       end
       i += 1
     end
     array.join(", ")  
   end
 end
+
