@@ -9,7 +9,7 @@ def oxford_comma(array)
     i = 0
     while i < array.size do
       if i == array.size-1
-        string = "#{string}, and #{array[i]}"
+        string = "#{string} and #{array[i]}"
       else
         string = "#{string}#{array[i]}, "
       end
@@ -19,4 +19,4 @@ def oxford_comma(array)
   end
 end
 
-hippo, 
+hippo, giraffe,
