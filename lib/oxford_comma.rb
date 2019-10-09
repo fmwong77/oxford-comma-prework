@@ -11,7 +11,7 @@ def oxford_comma(array)
       if i == array.size-1
         string = "#{string}, and #{array[i]}"
       else
-        string = "#{string}, #{array[i]}"
+        string = "#{string}#{array[i]}, "
       end
       i += 1
     end
@@ -19,3 +19,4 @@ def oxford_comma(array)
   end
 end
 
+hippo, 
