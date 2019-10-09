@@ -1,3 +1,3 @@
 def oxford_comma(array)
-  array.flatten
+  array.to_s
 end
