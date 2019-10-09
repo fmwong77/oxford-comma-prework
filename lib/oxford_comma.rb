@@ -15,8 +15,6 @@ def oxford_comma(array)
       end
       i += 1
     end
-    array.join(", ")  
   end
 end
 
-hippo, giraffe,
